@@ -43,6 +43,9 @@
     "config": {
         "sort-packages": true
     },
+    "scripts": {
+        "build-assets": "echo No assets to build"
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
