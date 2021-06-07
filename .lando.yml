@@ -1,0 +1,9 @@
+name: karaoke-generalredneck
+recipe: drupal9
+env_file:
+  - .env
+config:
+  webroot: web
+tooling:
+  drush:
+    cmd: /app/vendor/bin/drush --uri=http://karaoke-generalredneck.lndo.site
