@@ -1754,7 +1754,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/sandbox/generalredneck-3017533.git",
-                "reference": "57b9b68ac49be2204ff824e35c0d0f2842e5c6fa"
+                "reference": "e4e27dcb3fa496e604b94f038fbfd4e7260980f4"
             },
             "require": {
                 "drupal/restui": "^1.16",
@@ -1774,7 +1774,7 @@
                 "issues": "https://www.drupal.org/project/issues/openkj",
                 "source": "http://cgit.drupalcode.org/openkj"
             },
-            "time": "2019-01-27T18:05:30+00:00"
+            "time": "2021-06-12T19:44:42+00:00"
         },
         {
             "name": "drupal/restui",
