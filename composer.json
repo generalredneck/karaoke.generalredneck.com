@@ -14,25 +14,17 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "drupal/openkj",
-                "type": "drupal-module",
-                "version": "1.x-dev",
-                "source": {
-                    "url": "https://git.drupalcode.org/sandbox/generalredneck-3017533.git",
-                    "type": "git",
-                    "reference": "8.x-1.x"
-                }
-            }
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/sandbox/generalredneck-3017533.git"
         }
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/bootstrap5": "@beta",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drupal/openkj": "1.x-dev",
+        "drupal/openkj": "dev-8.x-1.x",
         "drush/drush": "^10.5"
     },
     "conflict": {
