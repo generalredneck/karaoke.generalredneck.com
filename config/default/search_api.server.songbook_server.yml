@@ -1,0 +1,19 @@
+uuid: 2dfda508-7c72-432d-a471-41208d7ad8ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: wgZIMKT7Mk4ldh-5cmsmyhHhcW-_esML12iyJ4Mi9jg
+id: songbook_server
+name: 'Songbook Search Server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

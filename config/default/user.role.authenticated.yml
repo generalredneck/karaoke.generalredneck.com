@@ -1,4 +1,4 @@
-uuid: dc93afde-8f55-49a1-97ca-7ea0a665890e
+uuid: 9fcdb43c-9439-48cb-82c4-9513b0a98f01
 langcode: en
 status: true
 dependencies: {  }
@@ -9,11 +9,16 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'post comments'
+  - 'add song request entities'
+  - 'delete song request entities'
+  - 'manage own openid connect accounts'
+  - 'restful post openkj_api_resource'
   - 'search content'
-  - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format restricted_html'
+  - 'view published artist entities'
+  - 'view published song entities'
+  - 'view published song request entities'
+  - 'view published venue entities'
+  - 'view unpublished song request entities'

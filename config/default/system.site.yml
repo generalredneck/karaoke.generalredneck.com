@@ -1,11 +1,11 @@
-uuid: b64a0515-ba52-44ff-9b0f-c68ce88e2b82
-name: 'Drush Site-Install'
-mail: admin@example.com
+uuid: 86d0796e-06ee-4d72-9074-11a756a15ef2
+name: 'Redneck Karaoke'
+mail: generalredneck@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /openkj/song-book
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
