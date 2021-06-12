@@ -25,6 +25,7 @@
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/openkj": "dev-8.x-1.x",
+        "drupal/social_auth_facebook": "^3.0",
         "drush/drush": "^10.5"
     },
     "conflict": {
