@@ -1,0 +1,22 @@
+uuid: b26ad266-4e6b-467c-9586-23d7d70d65ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - karaoke_b5
+_core:
+  default_config_hash: VShtwe72J2j41BJzApoNbs8l554EpngM5RTObxM7yiw
+id: karaoke_b5_breadcrumbs
+theme: karaoke_b5
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

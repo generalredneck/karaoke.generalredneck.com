@@ -1,0 +1,20 @@
+uuid: 4c14dcf7-31c1-4878-b53a-1b284b49f40c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - karaoke_b5
+_core:
+  default_config_hash: qYppfxaWSy6BwGNKdMch1PeUA24PlRTt39jQft6A6Kg
+id: karaoke_b5_page_title
+theme: karaoke_b5
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 3f3957cd-0dc2-46fd-9039-83858192333d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - karaoke_b5
+_core:
+  default_config_hash: S0Y16qIQfKiOEzWlddOGk3u_BKwAruAheA8VVFfGbLc
+id: karaoke_b5_help
+theme: karaoke_b5
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

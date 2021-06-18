@@ -1,0 +1,6 @@
+name: Redneck Karaoke
+type: module
+description: site custom module
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,25 @@
+uuid: 15e3c3b2-4d66-4c7a-8d0d-63ba58e2d839
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - karaoke_b5
+id: karaoke_b5_socialauthlogin
+theme: karaoke_b5
+region: content
+weight: 0
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Social Auth Login'
+  provider: social_auth
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/login
+    negate: false

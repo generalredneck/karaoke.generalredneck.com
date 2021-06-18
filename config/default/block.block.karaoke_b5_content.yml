@@ -1,0 +1,22 @@
+uuid: 43a0a325-27d0-4269-ac22-ee2ad92b2e1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - karaoke_b5
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: karaoke_b5_content
+theme: karaoke_b5
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
