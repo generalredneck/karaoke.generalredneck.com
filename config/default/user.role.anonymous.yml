@@ -15,3 +15,7 @@ permissions:
   - 'restful post openkj_api_resource'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view published artist entities'
+  - 'view published song entities'
+  - 'view published song request entities'
+  - 'view published venue entities'
