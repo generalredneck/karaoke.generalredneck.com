@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a5b8ba743ceb280612411f5d29037a7",
+    "content-hash": "b5df977874d10f296c9a86de9459c04e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1754,8 +1754,14 @@
             "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/sandbox/generalredneck-3017533.git",
+                "url": "https://github.com/generalredneck/OpenKJ-Drupal-Integration.git",
                 "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/generalredneck/OpenKJ-Drupal-Integration/zipball/4863dc2bba063d6e3aface4ef9b13086d3d2818f",
+                "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f",
+                "shasum": ""
             },
             "require": {
                 "drupal/restui": "^1.16",
@@ -7042,5 +7048,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

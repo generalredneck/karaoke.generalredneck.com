@@ -15,7 +15,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://git.drupalcode.org/sandbox/generalredneck-3017533.git"
+            "url": "https://github.com/generalredneck/OpenKJ-Drupal-Integration.git"
         }
     ],
     "require": {
@@ -35,7 +35,13 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": false,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
+        }
     },
     "scripts": {
         "build-assets": "echo No assets to build"
