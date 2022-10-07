@@ -1,0 +1,25 @@
+uuid: 9ac62b3e-f92a-4677-a96b-e12d7fd98767
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - karaoke_b5
+id: footer
+theme: karaoke_b5
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

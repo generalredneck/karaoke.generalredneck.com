@@ -63,6 +63,41 @@ display:
             offset_label: Offset
       style:
         type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          override: false
+          sticky: false
+          caption: ''
+          summary: ''
+          description: ''
+          columns:
+            artist_name: artist_name
+            song_name: song_name
+            id: id
+          info:
+            artist_name:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            song_name:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            id:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+          default: artist_name
+          empty_table: false
       row:
         type: fields
       fields:
@@ -334,31 +369,7 @@ display:
           min_length: null
           fields: {  }
           plugin_id: search_api_fulltext
-      sorts:
-        artist_name:
-          id: artist_name
-          table: search_api_index_song_index
-          field: artist_name
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: true
-          expose:
-            label: 'Artist Name'
-          plugin_id: search_api
-        song_name:
-          id: song_name
-          table: search_api_index_song_index
-          field: song_name
-          relationship: none
-          group_type: group
-          admin_label: ''
-          order: ASC
-          exposed: true
-          expose:
-            label: 'Song Name'
-          plugin_id: search_api
+      sorts: {  }
       title: 'Song Book'
       header: {  }
       footer: {  }
@@ -374,8 +385,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
       tags:
         - 'config:search_api.index.song_index'
   song_book_page:
@@ -394,7 +403,5 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
       tags:
         - 'config:search_api.index.song_index'
