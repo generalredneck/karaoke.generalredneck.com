@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
 uuid: 86d0796e-06ee-4d72-9074-11a756a15ef2
 name: 'Redneck Karaoke'
 mail: generalredneck@gmail.com
@@ -8,8 +11,5 @@ page:
   front: /openkj/song-book
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
 mail_notification: ''

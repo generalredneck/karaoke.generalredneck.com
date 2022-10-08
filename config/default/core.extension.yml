@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   automated_cron: 0
   big_pipe: 0
@@ -22,6 +24,7 @@ module:
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  mysql: 0
   node: 0
   openkj: 0
   options: 0
@@ -56,5 +59,3 @@ theme:
   claro: 0
   karaoke_b5: 0
 profile: standard
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

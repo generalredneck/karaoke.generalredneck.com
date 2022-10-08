@@ -1,7 +1,13 @@
 uuid: 9fcdb43c-9439-48cb-82c4-9513b0a98f01
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - rest.resource.openkj_api_resource
+  module:
+    - openkj
+    - rest
+    - system
 _core:
   default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
 id: authenticated
@@ -9,15 +15,10 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access site-wide contact form'
   - 'add song request entities'
   - 'cancel account'
-  - 'post comments'
   - 'restful post openkj_api_resource'
-  - 'search content'
-  - 'skip comment approval'
   - 'view published artist entities'
   - 'view published song entities'
   - 'view published song request entities'

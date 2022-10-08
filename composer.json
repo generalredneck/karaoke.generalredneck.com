@@ -12,10 +12,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/generalredneck/OpenKJ-Drupal-Integration.git"
         }
     ],
     "require": {
@@ -24,7 +20,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drupal/openkj": "dev-8.x-1.x",
+        "drupal/openkj": "dev-1.x",
         "drupal/r4032login": "^2.1",
         "drupal/social_auth_facebook": "^3.0",
         "drush/drush": "^10.5"
