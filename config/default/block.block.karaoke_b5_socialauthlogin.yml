@@ -10,7 +10,7 @@ dependencies:
 id: karaoke_b5_socialauthlogin
 theme: karaoke_b5
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: social_auth_login
 settings:

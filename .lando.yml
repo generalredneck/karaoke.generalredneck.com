@@ -4,6 +4,7 @@ env_file:
   - .env
 config:
   webroot: web
+  php: "7.4"
 tooling:
   drush:
     cmd: /app/vendor/bin/drush --uri=http://karaoke-generalredneck.lndo.site

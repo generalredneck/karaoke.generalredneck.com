@@ -11,7 +11,7 @@ _core:
 id: karaoke_b5_messages
 theme: karaoke_b5
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

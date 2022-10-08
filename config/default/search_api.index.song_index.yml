@@ -7,6 +7,7 @@ dependencies:
   module:
     - openkj
     - search_api
+    - search_api_glossary
 _core:
   default_config_hash: DmHCLdV_Rvd2ijXZZaa0Es0_I8kkc4yhPTU5LssWcUA
 id: song_index
@@ -22,6 +23,20 @@ field_settings:
     dependencies:
       module:
         - openkj
+  glossaryaz_artist_name:
+    label: 'Glossary AZ - Song » Artist Name'
+    property_path: glossaryaz_artist_name
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  glossaryaz_song_name:
+    label: 'Glossary AZ - Song » Song Name'
+    property_path: glossaryaz_song_name
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
   song_name:
     label: 'Song Name'
     datasource_id: 'entity:song'
@@ -43,6 +58,16 @@ datasource_settings:
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
+  entity_type: {  }
+  glossary:
+    weights:
+      preprocess_index: -20
+    glossarytable: 'a:1:{s:13:"glossarytable";a:2:{s:11:"artist_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;s:11:"grouping_09";i:0;}}s:9:"song_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;s:11:"grouping_09";i:0;}}}}'
+    field_enabled: 0
+    grouping_defaults:
+      grouping_other: grouping_other
+      grouping_az: 0
+      grouping_09: 0
   ignorecase:
     weights:
       preprocess_index: -50
