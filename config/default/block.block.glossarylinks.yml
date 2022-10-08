@@ -1,0 +1,25 @@
+uuid: d70fde1b-a3f5-41c0-ae39-f4cb8336428a
+langcode: en
+status: true
+dependencies:
+  module:
+    - redneck_karaoke
+    - system
+  theme:
+    - karaoke_b5
+id: glossarylinks
+theme: karaoke_b5
+region: content
+weight: 0
+provider: null
+plugin: redneck_karaoke_glossary_links
+settings:
+  id: redneck_karaoke_glossary_links
+  label: 'Glossary Links'
+  label_display: visible
+  provider: redneck_karaoke
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/openkj/song-book/browse/song\r\n/openkj/song-book/browse/artist"

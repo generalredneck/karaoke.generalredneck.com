@@ -1,0 +1,12 @@
+uuid: 27f88df1-c3af-419a-85f4-e63a3fc882f9
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_page__song_book__browse_song
+name: 'search_api:views_page__song_book__browse_song'
+filter_key: song
+url_processor: query_string
+breadcrumb:
+  active: true
+  before: true
+  group: false

@@ -1,0 +1,10 @@
+uuid: 491fe839-e806-4b76-9204-a5eb1e96d7c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - openkj
+id: artist.token
+label: Token
+targetEntityType: artist
+cache: true
