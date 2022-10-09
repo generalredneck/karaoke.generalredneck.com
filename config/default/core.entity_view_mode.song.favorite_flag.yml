@@ -1,0 +1,10 @@
+uuid: e1e5a213-9342-4fee-abbd-4a3a6b6dae17
+langcode: en
+status: true
+dependencies:
+  module:
+    - openkj
+id: song.favorite_flag
+label: 'Favorite Flag'
+targetEntityType: song
+cache: true

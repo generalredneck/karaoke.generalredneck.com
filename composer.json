@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/flag": "^4.0@beta",
         "drupal/openkj": "dev-1.x",
         "drupal/pathauto": "^1.11",
         "drupal/r4032login": "^2.1",
@@ -33,7 +34,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true,

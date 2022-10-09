@@ -1,0 +1,15 @@
+uuid: 02736ae2-8dc3-4b2b-9fd7-54f73032cc3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.favorite_song
+  module:
+    - flag
+id: flag_action.favorite_song_flag
+label: Favorite
+type: song
+plugin: 'flag_action:favorite_song_flag'
+configuration:
+  flag_id: favorite_song
+  flag_action: flag

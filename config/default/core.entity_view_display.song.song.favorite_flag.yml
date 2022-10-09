@@ -1,0 +1,23 @@
+uuid: e00e3427-0d5d-4c44-acc0-8316ecd122fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.song.favorite_flag
+  module:
+    - openkj
+id: song.song.favorite_flag
+targetEntityType: song
+bundle: song
+mode: favorite_flag
+content:
+  flag_favorite_song:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  artist: true
+  name: true
+  search_api_excerpt: true
+  user_id: true

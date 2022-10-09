@@ -1,0 +1,29 @@
+uuid: a00aee0d-5171-48d2-b071-ba1b791d8c53
+langcode: en
+status: true
+dependencies:
+  module:
+    - openkj
+id: favorite_song
+label: 'Favorite Song'
+bundles: {  }
+entity_type: song
+global: false
+flag_short: ✩
+flag_long: 'Favorite this song'
+flag_message: 'Song has been added to your favorites.'
+unflag_short: ★
+unflag_long: 'Remove this song from favorites'
+unflag_message: ''
+unflag_denied_text: ''
+weight: 0
+flag_type: 'entity:song'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

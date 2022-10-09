@@ -1,0 +1,15 @@
+uuid: 2ef5062c-3a1d-450f-964a-392040f423cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.favorite_song
+  module:
+    - flag
+id: flag_action.favorite_song_unflag
+label: 'Remove from Favorites'
+type: song
+plugin: 'flag_action:favorite_song_unflag'
+configuration:
+  flag_id: favorite_song
+  flag_action: unflag

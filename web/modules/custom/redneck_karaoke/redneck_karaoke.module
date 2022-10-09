@@ -17,3 +17,11 @@ function redneck_karaoke_user_format_name_alter(&$name, $account) {
     $name = $member->field_display_name->value;
   }
 }
+
+function redneck_karaoke_entity_base_field_info_alter(&$fields, $entity_type) {
+  if ($entity_type->id() == 'node') {
+    if (isset($fields['title'])) {
+      $fields['title']->setDisplayConfigurable('view', TRUE);
+    }
+  }
+}

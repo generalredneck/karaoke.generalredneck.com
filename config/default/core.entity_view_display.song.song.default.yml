@@ -1,0 +1,35 @@
+uuid: 70bb20f7-6062-4306-9e10-3609fad114ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - openkj
+id: song.song.default
+targetEntityType: song
+bundle: song
+mode: default
+content:
+  artist:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  flag_favorite_song:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  search_api_excerpt: true
+  user_id: true
