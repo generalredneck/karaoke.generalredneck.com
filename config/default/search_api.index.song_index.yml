@@ -62,7 +62,7 @@ processor_settings:
   glossary:
     weights:
       preprocess_index: -20
-    glossarytable: 'a:1:{s:13:"glossarytable";a:2:{s:11:"artist_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;s:11:"grouping_09";i:0;}}s:9:"song_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;s:11:"grouping_09";i:0;}}}}'
+    glossarytable: 'a:1:{s:13:"glossarytable";a:2:{s:11:"artist_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:11:"grouping_09";s:11:"grouping_09";s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;}}s:9:"song_name";a:2:{s:8:"glossary";s:1:"1";s:8:"grouping";a:3:{s:11:"grouping_09";s:11:"grouping_09";s:14:"grouping_other";s:14:"grouping_other";s:11:"grouping_az";i:0;}}}}'
     field_enabled: 0
     grouping_defaults:
       grouping_other: grouping_other
@@ -75,6 +75,8 @@ processor_settings:
     all_fields: true
     fields:
       - artist_name
+      - glossaryaz_artist_name
+      - glossaryaz_song_name
       - song_name
   language_with_fallback: {  }
   rendered_item: {  }
@@ -96,6 +98,8 @@ processor_settings:
     all_fields: true
     fields:
       - artist_name
+      - glossaryaz_artist_name
+      - glossaryaz_song_name
       - song_name
 tracker_settings:
   default:

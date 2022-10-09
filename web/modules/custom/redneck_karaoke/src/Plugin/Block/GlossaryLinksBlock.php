@@ -21,7 +21,7 @@ class GlossaryLinksBlock extends BlockBase {
    */
   public function build() {
       $route_name = \Drupal::routeMatch()->getRouteName();
-      $chars = array_merge(range('A', 'Z'), range('0', '9'));
+      $chars = array_merge(range('A', 'Z'), ['0-9', '#']);
       foreach($chars as $char) {
         $items[] = Link::createFromRoute($char, $route_name, [
           'starts-with' => $char,

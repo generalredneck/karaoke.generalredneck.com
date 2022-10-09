@@ -1,0 +1,9 @@
+uuid: e2bc8d7c-fb3f-4407-8f8b-12439a271cc5
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_page__song_book__browse_artist
+name: 'search_api:views_page__song_book__browse_artist'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

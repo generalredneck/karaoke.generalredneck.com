@@ -16,7 +16,7 @@ plugin: redneck_karaoke_glossary_links
 settings:
   id: redneck_karaoke_glossary_links
   label: 'Glossary Links'
-  label_display: visible
+  label_display: '0'
   provider: redneck_karaoke
 visibility:
   request_path:
